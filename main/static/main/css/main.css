@@ -1,0 +1,201 @@
+body{
+    background:#2c2c2c;
+}
+aside{
+    float: left;
+    padding:2.5%;
+    width:20%;
+    height: 100vh;
+    background: #181818;
+    color:#fff;
+    border-right:5px solid #4d4d4d;
+}
+aside img{
+    float: left;
+    width:60px;
+    height: 60px;
+}
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+aside h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+aside ul{
+    list-style: none;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+aside ul a, li{
+    text-decoration: none;
+    color:#fff;
+    transition: color .2s linear;
+}
+aside ul a, li:hover{
+    color: #7f0909;
+}
+
+.features{
+    float: left;
+    color:#fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+.features h1{
+    font-size:50px;
+}
+.features p{
+    max-width: 400px;
+    margin:20px auto;
+}
+
+.login-page{
+    display: flex;
+    color:white;
+}
+
+
+
+
+/* Дизайн регистрации */
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #dc3545;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #dc3545;
+  text-decoration: none;
+}
+/*.form .register-form {*/
+/*  display: none;*/
+/*}*/
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #dc3545;
+}
+
+
+.container{
+    height: 100vh;
+}
+       .card{
+        width: 380px;
+        border: none;
+        border-radius: 15px;
+        padding: 8px;
+        background-color: #fff;
+        position: relative;
+        height: 370px;
+       }
+
+       .upper{
+        height: 100px;
+       }
+
+       .upper img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       }
+
+       .user{
+        position: relative;
+       }
+       .profile img{
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+       }
+       .profile{
+        position: absolute;
+        top:-50px;
+        left: 38%;
+        height: 90px;
+        width: 90px;
+        border:3px solid #fff;
+        border-radius: 50%;
+       }
+       .follow{
+        border-radius: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 35px;
+       }
+       .stats span{
+        font-size: 29px;
+       }
+
