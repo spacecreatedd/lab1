@@ -3,9 +3,11 @@
 {% block title %}Главная страница{% endblock %}
 
 {% block content %}
-    <div class="features">
-        <h1>Главная</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta eligendi fuga hic natus odio officiis quos recusandae ut velit!</p>
-        <button class="btn btn-warning">Нажать</button>
-    </div>
+    {% for post in posts %}
+      <div class="post">
+        <h3>{{ post.short_description }}</h3>
+        <img src="{{ post.image.url }}" alt="{{ post.short_description }}">
+        <a href="{% url 'about' post.id %}">Подробнее</a>
+      </div>
+    {% endfor %}
 {% endblock %}
